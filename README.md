@@ -13,7 +13,7 @@ Feel free to contact me by [LinkedIn](https://www.linkedin.com/in/m-mca/) or Ema
 
 ## Analysis Division
 I did three analysis. My goals here is to come up with something that will help Udemy to optimize yours services and functionalities, boosting the revenues.
-
+![My Image](dg_1.png)
 ### Predictive Analysis
 
 After published some content in the platform, how creators may adjust their price? As time pass, new contents are being created, which means there are a broad range of new courses to choose. **How can we create a more competitive enviroment?** **How can we help the content creators to adjust their prices more effectively?** **And what the benefits for them, their clients and udemy itself?**
