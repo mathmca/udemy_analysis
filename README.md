@@ -3,7 +3,7 @@
 
 # Udemy Analysis
 
-My objective here is to do a complete analysis - Predictive, explanatory and inferential - utilizing a small database from udemy courses informations. One of the biggest problems faced by data professionals is data availability, and I would like to start under this circumstance. Hence, how challanging is to work under this environment? Which value can I extract from it? How does the ML models faced this specific situation? Well, let's see.
+My objective here is to do a complete analysis - Predictive, exploratory and inferential - utilizing a small database from udemy courses informations. One of the biggest problems faced by data professionals is data availability, and I would like to start under this circumstance. Hence, how challanging is to work under this environment? Which value can I extract from it? How does the ML models faced this specific situation? Well, let's see.
 
 *You are free to run your own notebook (I am using the Google Colab, you do not need to clone), just use your kaggle authetincation*
 
