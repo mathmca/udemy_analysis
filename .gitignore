@@ -3,5 +3,5 @@
 .ipynb_checkpoints
 env/
 predictive_analysis/env/
-eda_analysis/
 inferential_analysis/
+.Rproj
