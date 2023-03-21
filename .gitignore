@@ -1,7 +1,5 @@
-.Rproj.user
-.Rhistory
-.ipynb_checkpoints
+eda_analysis/*
+!eda_analysis/r_script.R
 env/
 predictive_analysis/env/
 inferential_analysis/
-.Rproj
