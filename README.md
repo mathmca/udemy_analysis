@@ -30,6 +30,6 @@ The objective here is to predict the price for a course based on other similar c
 
 ### Exploratory Analysis
 
-<img src="./eda_analysis/plots/wcloud2.png" width=60% />
+<img src="./eda_analysis/plots/wcloud2.png" width=100% />
 
 On progress... 
