@@ -121,7 +121,7 @@ ggplot(word_tracker, mapping=aes(label = words, size=count)) +
   )) +
   scale_size_area(max_size = 10) +
   theme_minimal() +
-  theme(plot.background = element_rect(fill = "#1E2327", color="#1E2327"))
+  theme(plot.background = element_rect(fill = "#0D1117", color="#0D1117"))
   # labs(title = "Most Expensive Topics") +
   # theme(
   #   plot.background = element_rect(fill = "#262323"),
@@ -132,3 +132,5 @@ ggplot(word_tracker, mapping=aes(label = words, size=count)) +
 
 
 # Saving plots
+
+ggsave
