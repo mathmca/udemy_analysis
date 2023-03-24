@@ -5,7 +5,7 @@
 
 The objective here is to do a complete analysis - Predictive, exploratory and inferential - utilizing a small database from udemy. One of the biggest problems faced by data professionals is data availability, and I would like to start under this circumstance. Hence, how challenging is it to work under this environment? Which value can I extract from it? How do ML models face this specific situation? Well, let's see.
 
-*You are free to run your own notebook (I am using the Google Colab, you do not need to clone), just use your kaggle authetincation and the .csv*
+*You are free to run your own notebook (I am using the Google Colab, you do not need to clone), just use your kaggle authentication and the .csv*
 
 I got the database from: https://www.kaggle.com/datasets/andrewmvd/udemy-courses (Thank you! @LARXEL)
 
