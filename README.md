@@ -26,3 +26,9 @@ Our objective here is to predict the price for a course based on other similar c
 1. Sales optimizer: Knwoing the fair price, individuals are able to try competitive strategies such as lowering their prices to catch more costumers and achieve higher profits (scaling by sales);
 2. Quality Booster: A more competitive environment tends to increase the quality of the contents that are posted. It creates better contents, increasing the likelihood of new purcheses by the same client as well as new clients;
 3. Greater the sales, greater the revenue: Optimize the content market is equivalent to optimize the revenue.
+
+### Exploratory Analysis
+
+<img src="./eda_analysis/plots/wcloud.png" width=100% />
+
+On progress... 

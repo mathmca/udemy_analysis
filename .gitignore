@@ -1,5 +1,6 @@
-eda_analysis/*
-!eda_analysis/r_script.R
+eda_analysis/.Rproj.user
+eda_analysis/.Rhistory
 env/
 predictive_analysis/env/
 inferential_analysis/
+.Rproj.user
