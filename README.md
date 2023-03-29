@@ -32,4 +32,43 @@ The objective here is to predict the price for a course based on other similar c
 
 <img src="./eda_analysis/plots/wcloud2.png" width=100% />
 
-On progress... 
+**These answers and questions are find at "eda_analysis" folder**
+
+**English**
+
+What strategies do Udemy's content creators use to catch more customers and get more sales? What are their prices strategies?
+
+What tools a graphic designer or a web developer will probably have today?
+
+What is the most popular work area?
+
+When courses' prices are at the bottom or at the top (Sazonality)? Why?
+
+The analysis says that we can expect more Front-end developers in the market than Back-end developers. 
+
+These questions and a few more are answered using that small dataset with just a few pieces of information. Economic theory was used to explain some situations as well as behaviors.
+
+*Remember, this is a study case with just a small sample size*
+
+**Português**
+
+**Essas respostans e perguntas são encontradas na pasta "eda_analysis"**
+
+Quais estratégias os criadores de conteúdo da Udemy utilizam para captar mais clientes e conseguir mais vendas? Quais são suas estratégias de preço?
+
+Quais ferramentas que todo designer gráfico ou desenvolvedor web provavelmente terão hoje?
+
+Qual é a área de trabalho mais popular? Finance? Tech?
+
+Quando os preços dos cursos atingem o seu nível mais baixo ou mais alto (Sazonalidade)? Por quê?
+
+Essas questões e algumas outras são respondidas usando um pequeno conjunto de dados com apenas algumas informações. Teoria econômica foi utilizada, quando necessário, para explicar algumas situações e comportamentos
+
+*Lembre-se, isto é um estudo de caso de somente uma pequena amostra*
+
+
+
+
+
+
+
