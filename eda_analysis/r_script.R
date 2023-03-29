@@ -103,7 +103,7 @@ write.csv(df_wordcount, file = "word-counter.csv")
 
 # Charts
 
-## Top 100 Expensive Courses Subjects
+## Top 100 Most Expensive Subjects
 top_words <- get_sample(original_df, original_df$price, 200, 100)
 
 words_df <- as.data.frame(list(words = splitter(top_words)))
@@ -113,15 +113,17 @@ word_tracker <- words_df %>%
 
 ## Chart 1
 set.seed(42)
-ggplot(word_tracker, mapping=aes(label = words, size=count)) +
+w1 <- ggplot(word_tracker, mapping=aes(label = words, size=count)) +
   geom_text_wordcloud(aes(
     color = factor(sample.int(2, nrow(word_tracker), replace = TRUE))
   )) +
   scale_size_area(max_size = 10) +
   theme_minimal() +
-  theme(plot.background = element_rect(fill = "#0D1117", color="#0D1117"))
+  theme(plot.background = element_rect(fill = "#0D1117", color="#0D1117"),
+        plot.title = element_text(size = 15, hjust=.5, color = "white")) +
+  labs(title = "The 100 Most Expensive Courses")
 
-## Top 100 Cheapest Courses Subjects
+## Top 100 Cheapest Subjects
 least_words <- get_sample(original_df, original_df$price, 20, 100)
 
 words_df2 <- as.data.frame(list(words = splitter(least_words)))
@@ -129,14 +131,17 @@ word_tracker2 <- words_df2 %>%
   group_by(words) %>% 
   summarise(count = n())
 
-# Chart 2
-ggplot(word_tracker2, mapping=aes(label = words, size=count)) +
+# Chart 
+set.seed(42)
+w2 <- ggplot(word_tracker2, mapping=aes(label = words, size=count)) +
   geom_text_wordcloud(aes(
     color = factor(sample.int(2, nrow(word_tracker2), replace = TRUE))
   )) +
   scale_size_area(max_size = 10) +
   theme_minimal() +
-  theme(plot.background = element_rect(fill = "#0D1117", color="#0D1117"))
+  theme(plot.background = element_rect(fill = "#0D1117", color="#0D1117"),
+        plot.title = element_text(size = 15, hjust=.5, color = "white")) +
+  labs(title = "Top 100 Cheapest Subjects")
 
 
 title_conf <- element_text(size = 15, hjust=.5, color = "black")
@@ -218,3 +223,13 @@ p7 <- final_df %>%
 
 
 # Saving plots
+
+save_plots <- function(plots, file_prefix, file_format = "png", width = 10, height = 4) {
+  for (i in seq_along(plots)) {
+    file_name <- paste0(file_prefix, i, ".", file_format)
+    ggsave(file_name, plot = plots[[i]], width = width, height = height)
+  }
+}
+
+plots <- list(p3, p4, p5, p6, p62, p7)
+save_plots(plots, "graph_")
