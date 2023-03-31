@@ -224,7 +224,7 @@ p7 <- final_df %>%
 
 # Saving plots
 
-save_plots <- function(plots, file_prefix, file_format = "png", width = 10, height = 4) {
+save_plots <- function(plots, file_prefix, file_format = "png", width = 10, height = 7) {
   for (i in seq_along(plots)) {
     file_name <- paste0(file_prefix, i, ".", file_format)
     ggsave(file_name, plot = plots[[i]], width = width, height = height)

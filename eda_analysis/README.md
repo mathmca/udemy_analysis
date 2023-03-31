@@ -1,5 +1,7 @@
 # Udemy Analytics Report (Relatório de Análise Udemy)
 
+<img src="./eda_analysis/plots/pair_plot.png" width=100% />
+
 ## English
 
 ### The Content Creators
