@@ -1,6 +1,6 @@
 # Udemy Analytics Report (Relatório de Análise Udemy)
 
-<img src="./eda_analysis/plots/pair_plot.png" width=100% />
+<img src="./eda_analysis/plots/graph_3.png" width=100% />
 
 ## English
 
