@@ -231,5 +231,7 @@ save_plots <- function(plots, file_prefix, file_format = "png", width = 10, heig
   }
 }
 
+setwd("./plots")
+
 plots <- list(p3, p4, p5, p6, p62, p7)
 save_plots(plots, "graph_")

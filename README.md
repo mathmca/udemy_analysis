@@ -58,18 +58,18 @@ The objective here is to predict the price for a course based on other similar c
 
 🔸What tools a graphic designer or a web developer will probably have today?
 
-🔸What is the most popular work area?
+🔸What is the most searched genre and musical instrument?
 
 🔸When courses' prices are at the bottom or at the top (Sazonality)? Why?
 
-🔸Can we expect more Front-End than Back-End developers in a few years? What tools will everyone have?
+🔸Can we expect more Front-End than Back-End developers in a few years?
 
 ---
 These questions and a few more are answered using that small dataset with just a few pieces of information. Economic theory was used to explain some situations as well as behaviors.
 
 **These answers and questions are find at "eda_analysis" folder.**
 
-*Remember, this is a study case with just a small sample size.*
+*Remember, this is a study case with just a small sample size from 2017.*
 
 ### Inferential Analysis
 
@@ -100,15 +100,15 @@ O objetivo aqui é prever o preço de um curso com base em outros cursos semelha
 
 🔸 Quais ferramentas que todo designer gráfico ou desenvolvedor web provavelmente terão hoje?
 
-🔸 Qual é a área de trabalho mais popular? Finance? Tech?
+🔸 Qual gênero e insturmento musical mais procurado?
 
 🔸 Quando os preços dos cursos atingem o seu nível mais baixo ou mais alto (Sazonalidade)? Por quê?
 
-🔸 Dentro de alguns anos a maioria das pessoas vão dominar ferramentas de Front-End (sendo a área com mais oferta de mão de obra)? Quais as ferramentas?
+🔸 Qual área de tecnologia tem a maior demanda? Quais as ferramentas?
 
 ---
 Essas questões e algumas outras são respondidas usando um pequeno conjunto de dados com apenas algumas informações. Teoria econômica foi utilizada, quando necessário, para explicar algumas situações e comportamentos.
 
 **Essas respostans e perguntas são encontradas na pasta "eda_analysis".**
 
-*Lembre-se, isto é um estudo de caso de somente uma pequena amostra.*
+*Lembre-se, isto é um estudo de caso de somente uma pequena amostra de 2017.*
