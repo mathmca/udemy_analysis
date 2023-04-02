@@ -1,10 +1,13 @@
 # Udemy Analytics Report (Relatório de Análise Udemy)
 
-<img src="./plots/wcloud2.png" width=100% />
+<img src="./plots/graph_3.png" width=100% />
 
 ## English
 
+
 ### The Content Creators
+
+<img src="./plots/graph_2.png" width=100% />
 
 
 Udemy's content creators seem to use free content to be a strategy to get more customers and popularity, mainly if you are new in the market.
@@ -15,6 +18,7 @@ Udemy's content creators seem to use free content to be a strategy to get more c
 
 ### Seasonality
 
+<img src="./plots/graph_1.png" width=100% />
 
 Prices are higher at the end of the year with a peak in December. There are many holidays, people are making plans and buying tools to achieve it and there is more money in the market. I can explain this using the principle derived from "Intertemporal Choice" theory: People prefer to spend their money today rather than tomorrow. Therefore, when they have the necessary money to buy something, they will do it as quickly as possible.
 
@@ -24,14 +28,18 @@ Prices are higher at the end of the year with a peak in December. There are many
 
 There is a price limit of $200 and it is unexplainable. The only good explanation would be a price limit imposed by Udemy itself, but it does not seem like a good policy. I would question the data set reliability.
 
+<img src="./plots/graph_6.png" width=100% />
+
 
 ### Subjects
+
+<img src="./plots/graph_4.png" width=100% />
 
 **For Web Development:** As observed, Expert Level courses have a higher price compared to the others. Explanations are: There is a huge demand for Web Development compared to other subjects (4x more subscribers than Finance), because there is a high demand for these professionals. Many of them are coming from other fields and usually start doing an online course; Technology is always changing; and people are expecting to get higher financial returns with this specific knowledge.
 
 *We can expect a higher labor supply for this area in a few years*. Moreover, JavaScript was the most famous subject, followed by Wordpress, HTML, PHP, CSS, Bootstrap, Jquery and Angular. Majority of them are front-end tools. We can expect a very high offer of employees with these specific skills in the future and this is what the current employers are asking for.
 
-*Udemy itself seems very dependent on this area (technology). They are very exposed. A policy to attract content creators from different areas should be prepared, applying the principle of diversification and minimizing their risk.*
+**Udemy itself seems very dependent on this area (technology). They are very exposed. A policy to attract content creators from different areas should be prepared, applying the principle of diversification and minimizing their risk.**
 
 
 **For Musical Instruments:** The price range is very short and has a price limit of $50. This relies on the fact that music does not change a lot over the years. Furthermore, *it is something for hobby*, not professional (for the majority of people). *Whoever buys it is not expecting financial returns.* Therefore, they are not ready to spend much money on learning music.
@@ -50,6 +58,8 @@ Whether you are not from finance, be aware that Trading, Forex and Options are t
 
 
 *If you are trying to work in Finance: Excel, bookkeeping and CFA are topics you should give a look.*
+
+<img src="./plots/graph_5.png" width=100% />
 
 ## Português
 
