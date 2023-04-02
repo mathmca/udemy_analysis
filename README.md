@@ -11,7 +11,7 @@
 
 **English**
 
-The objective here is to do a complete analysis - Predictive, exploratory and inferential - utilizing a small data set from Udemy. One of the biggest problems faced by data professionals is data availability and I would like to start under this circumstance. Hence, how challenging is it to work under this environment? Which value can is possible to extract from it? How do Machine Learning models face this specific situation? Well, let's see.
+The objective is to do a complete analysis - Predictive, exploratory and inferential - utilizing a small data set from Udemy. One of the biggest problems faced by data professionals is data availability and I would like to start under this circumstance. Hence, how challenging is it to work under this environment? Which value can is possible to extract from it? How do Machine Learning models face this specific situation? Well, let's see.
 
 *You are free to run your own notebook (I am using the Google Colab, you do not need to clone), just use your Kaggle authentication and the .csv*
 
@@ -21,7 +21,7 @@ Feel free to contact me by [LinkedIn](https://www.linkedin.com/in/m-mca/) or Ema
 
 **Português**
 
-O objetivo aqui é realizar uma análise completa - Preditiva, exploratória e inferencial - utilizando um pequeno conjunto de dados da Udemy. Um dos grandes problemas encontrados pelos profissionais de dados é a falta de dados e eu gostaria de iniciar sob essa circunstância. Portanto, quão desafiador é trabalhar neste ambiente? Que valor é possível extrair dele? Como os modelos de Aprendizado de Máquina lidam com esse tipo de situação? Vamos ver!
+O objetivo é realizar uma análise completa - Preditiva, exploratória e inferencial - utilizando um pequeno conjunto de dados da Udemy. Um dos grandes problemas encontrados pelos profissionais de dados é a falta de dados e eu gostaria de iniciar sob essa circunstância. Portanto, quão desafiador é trabalhar neste ambiente? Que valor é possível extrair dele? Como os modelos de Aprendizado de Máquina lidam com esse tipo de situação? Vamos ver!
 
 *Você pode rodar o código utilizando seu próprio notebook (Use o colab, não precisa clonar), somente use sua autenticação do Kaggle e o .csv*
 
@@ -38,7 +38,7 @@ I have done these three analyses. My goals here are to come up with something th
 After publishing some content on the platform, how do creators adjust their prices? As time passes, new contents are being created, which means there are a broad range of new courses to choose from. **How can we create a more competitive environment?** **How can we help the content creators to adjust their prices more effectively?** **And what are the benefits for them, their clients and udemy itself?**
 
 ---
-The objective here is to predict the price for a course based on other similar courses, creating a competitive environment. Thus, the content creator will be able to compare his price with the "market price" (the benchmark) - since the model is based on market prices -. *This is going to help them to adjust their prices based on their competitors, optimizing their sales.*
+The objective is to predict the price for a course based on other similar courses, creating a competitive environment. Thus, the content creator will be able to compare his price with the "market price" (the benchmark) - since the model is based on market prices -. *This is going to help them to adjust their prices based on their competitors, optimizing their sales.*
 
 ---
 **Benefits:**
@@ -109,6 +109,6 @@ O objetivo aqui é prever o preço de um curso com base em outros cursos semelha
 ---
 Essas questões e algumas outras são respondidas usando um pequeno conjunto de dados com apenas algumas informações. Teoria econômica foi utilizada, quando necessário, para explicar algumas situações e comportamentos.
 
-**Essas respostans e perguntas são encontradas na pasta "eda_analysis".**
+**Essas respostas e perguntas são encontradas na pasta "eda_analysis".**
 
 *Lembre-se, isto é um estudo de caso de somente uma pequena amostra de 2017.*
