@@ -109,6 +109,6 @@ O objetivo aqui é prever o preço de um curso com base em outros cursos semelha
 ---
 Essas questões e algumas outras são respondidas usando um pequeno conjunto de dados com apenas algumas informações. Teoria econômica foi utilizada, quando necessário, para explicar algumas situações e comportamentos.
 
-**Essas respostans e perguntas são encontradas na pasta "eda_analysis".**
+**Essas respostas e perguntas são encontradas na pasta "eda_analysis".**
 
 *Lembre-se, isto é um estudo de caso de somente uma pequena amostra de 2017.*
