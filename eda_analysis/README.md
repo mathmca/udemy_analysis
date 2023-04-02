@@ -9,8 +9,6 @@
 
 ## English
 
-*Check the charts in the "plots" folder.*
-
 ### The Content Creators
 
 
@@ -62,7 +60,6 @@ Whether you are not from finance, be aware that Trading, Forex and Options are t
 
 ## Português
 
-*Cheque os gráficos na pasta "plots".*
 
 ### Os Criadores de Conteúdo
 
