@@ -1,5 +1,12 @@
 # Udemy Analytics Report (Relatório de Análise Udemy)
 
+<img src="./plots/graph_3.png" width=70% />
+<img src="./plots/graph_2.png" width=70% />
+<img src="./plots/graph_4.png" width=70% />
+<img src="./plots/graph_1.png" width=70% />
+<img src="./plots/graph_5.png" width=70% />
+<img src="./plots/graph_6.png" width=70% />
+
 ## English
 
 *Check the charts in the "plots" folder.*
