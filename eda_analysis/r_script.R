@@ -17,9 +17,9 @@ original_df <- data.frame(original)
 
 # Transformation
 final_df <- mutate(original_df,
-  year = as.integer(format(as.Date(published_timestamp, format="%Y-%m-%d"), "%Y")),
-  month = as.integer(format(as.Date(published_timestamp, format="%Y-%m-%d"), "%m")),
-  lecture_duration = round((content_duration/num_lectures) * 100, 0)) %>%
+                   year = as.integer(format(as.Date(published_timestamp, format="%Y-%m-%d"), "%Y")),
+                   month = as.integer(format(as.Date(published_timestamp, format="%Y-%m-%d"), "%m")),
+                   lecture_duration = round((content_duration/num_lectures) * 100, 0)) %>%
   select(!c(1, 2, 3, 4, 11)) %>%
   clean_names()
 
@@ -137,10 +137,9 @@ w2 <- ggplot(word_tracker2, mapping=aes(label = words, size=count)) +
   geom_text_wordcloud(aes(
     color = factor(sample.int(2, nrow(word_tracker2), replace = TRUE))
   )) +
-  scale_size_area(max_size = 10) +
+  scale_size_area(max_size = 8) +
   theme_minimal() +
-  theme(plot.background = element_rect(fill = "#0D1117", color="#0D1117"),
-        plot.title = element_text(size = 15, hjust=.5, color = "white")) +
+  theme(plot.title = element_text(size = 15, hjust=.5, color = "white")) +
   labs(title = "Top 100 Cheapest Subjects")
 
 
@@ -152,9 +151,11 @@ p1 <- group_by(final_df, subject) %>%
   summarise(subs = sum(num_subscribers, na.rm = TRUE)) %>% 
   ggplot(mapping=aes(x = subject, y = subs)) +
   geom_col(width = 0.4, fill = "purple") + 
+  theme_minimal() +
   geom_text(aes(label = subs),  vjust=1.3, color="white", size = 4) +
   theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(),
-        plot.title = title_conf) +
+        plot.title = title_conf, panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank()) +
   labs(title = "Amount of Subscribers by Subject", y = NULL, x = NULL)
 
 ## Chart 4
@@ -163,8 +164,10 @@ p2 <- group_by(final_df, subject) %>%
   ggplot(mapping=aes(x = subject, y = count)) +
   geom_col(width = 0.4, fill = "purple") + 
   geom_text(aes(label = count),  vjust = 1.3, color = "white", size = 4) +
+  theme_minimal() +
   theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(),
-        plot.title = title_conf) +
+        plot.title = title_conf, panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank()) +
   labs(title = "Total Amount of Courses", y = NULL, x = NULL)
 
 p12 <- grid.arrange(p1, p2, ncol = 2)
@@ -175,14 +178,16 @@ p3 <- final_df %>%
   summarise(avg_price = mean(price, na.rm = TRUE)) %>%
   ggplot(mapping=aes(x = month, y = avg_price)) +
   geom_line(aes(color = subject), size = 1) +
-  theme(legend.position = "bottom", plot.title = title_conf) +
+  theme_minimal() +
+  theme(legend.position = "bottom", plot.title = title_conf, panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank()) +
   annotate("rect", xmin = 6, xmax = 7, ymin =35, ymax =100,
            alpha = .2) +
   annotate("segment", x = 11, y = 35, xend = 11, yend = 93,
            arrow = arrow(ends = "both", angle = 90, length = unit(.2,"cm"))) +
   annotate("text", x = 11, y = 95, label = "Peak") +
   scale_x_discrete(limit = c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
-                            "Aug", "Oct", "Nov", "Dec")) +
+                             "Aug", "Oct", "Nov", "Dec")) +
   labs(title = "Price Sazonality by Subject", x = NULL, y = "Average Price")
 
 ## Chart 6
@@ -191,12 +196,17 @@ p4 <- final_df %>%
   ggplot(mapping = aes(x = year)) +
   geom_bar(fill = "purple", width = 0.3, alpha = 0.4, color = "purple") +
   labs(title = "Free courses by Year", x = NULL, y = NULL) +
-  theme(plot.title = title_conf)
+  theme_minimal() +
+  theme(plot.title = title_conf, panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
 
 ## Chart 7
 ### positively skewed distribution (most prices between 0 and 50)
 p5 <- ggpairs(final_df, columns = c(1:4, 10), aes(color = subject, alpha = 0.3),
-        upper = list(continuous = "points"))
+              upper = list(continuous = "points")) +
+  theme_minimal() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
 
 ## Chart 8
 p6 <- final_df %>% 
@@ -204,22 +214,29 @@ p6 <- final_df %>%
   geom_violin(fill="purple", color="purple", alpha=0.4) +
   facet_wrap(~level, ncol = 2, nrow = 2) +
   labs(title = "Price Distribution", x = NULL, y = NULL) +
-  theme(plot.title = title_conf)
+  theme_minimal() +
+  theme(plot.title = title_conf, panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
 
 ## Chart 9
 p62 <- final_df %>% 
   ggplot(mapping=aes(x=subject, price)) +
   geom_violin(fill="purple", color="purple", alpha=0.4) +
   labs(title = "Price Distribution", x = NULL, y = NULL) +
-  theme(plot.title = title_conf)
+  theme_minimal() +
+  theme(plot.title = title_conf, panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
 
 ## Chart 10
 p7 <- final_df %>% 
   ggplot(mapping=aes(x = fct_rev(fct_infreq(level)))) +
   geom_bar(color="purple", fill="purple", alpha=0.4) +
   facet_wrap(~ subject) +
+  theme_minimal() +
   labs(title = "Number of Courses by Level", x = NULL, y = NULL) +
-  theme(plot.title = title_conf)
+  theme(plot.title = title_conf,
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
 
 
 # Saving plots
