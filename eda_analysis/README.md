@@ -1,13 +1,23 @@
 # Udemy Analytics Report (Relatório de Análise Udemy)
 
-<img src="./plots/graph_3.png" width=70% />
-<img src="./plots/graph_2.png" width=70% />
-<img src="./plots/graph_4.png" width=70% />
-<img src="./plots/graph_1.png" width=70% />
-<img src="./plots/graph_5.png" width=70% />
-<img src="./plots/graph_6.png" width=70% />
+---
+<p float="left">
+  <img src="./plots/graph_3.png" width=30% />
+  <img src="./plots/graph_2.png" width=30% />
+  <img src="./plots/graph_4.png" width=30% />
+</p>
+
+<p float="left">
+  <img src="./plots/graph_1.png" width=30% />
+  <img src="./plots/graph_5.png" width=30% />
+  <img src="./plots/graph_6.png" width=30% />
+</p>
+
+---
 
 ## English
+
+🔹 *Charts avaliable in the "plots" folder*
 
 ### The Content Creators
 
@@ -59,6 +69,8 @@ Whether you are not from finance, be aware that Trading, Forex and Options are t
 
 
 ## Português
+
+🔹 *Gráficos disponíveis na pasta "plots"*
 
 
 ### Os Criadores de Conteúdo
